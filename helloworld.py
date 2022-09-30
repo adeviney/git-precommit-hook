@@ -17,7 +17,6 @@ def example1():
             300,
             9876543210,
             "This is a long string that goes on",
-            13513,
         ],
         "more": {
             "inner": "This whole logical line should be wrapped.",
