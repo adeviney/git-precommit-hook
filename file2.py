@@ -1,9 +1,13 @@
-print("some key")
+def is_unique(s):
+    s = list(s)
+    s.sort()
 
-print(
-    "a really really super duper long crazy line that goes beyond what is recommended at 80 characters and all of that jazz yay yay yay"
-)
+    for i in range(len(s) - 1):
+        if s[i] == s[i + 1]:
+            return 0
+    else:
+        return 1
 
 
-def some_func():
-    bob = "an unused variable"
+if __name__ == "__main__":
+    print(is_unique(input()))

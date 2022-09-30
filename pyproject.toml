@@ -1,10 +1,3 @@
 [tool.black]
 force-exclude = 'helloworld_prelint.py'
 
-[tool.pylint]
-ignore-patterns = '''
-(
-    (.)*_prelint\.py
-    *\.toml
-)
-'''
