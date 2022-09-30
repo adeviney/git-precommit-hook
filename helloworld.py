@@ -2,12 +2,11 @@
 
 # Source: https://pypi.org/project/autopep8/
 # originally non-pep8 compliant code
-import math
-import sys
+import math, sys
 
 
 def example1():
-    # This is a long comment. This should be wrapped to fit within 72 characters.
+    ####This is a long comment. This should be wrapped to fit within 72 characters.
     some_tuple = (1, 2, 3, "a")
     some_variable = {
         "long": "Long code lines should be wrapped within 79 characters.",
