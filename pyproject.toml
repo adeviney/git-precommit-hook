@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 [tool.black]
 force-exclude = 'helloworld_prelint.py'
 
